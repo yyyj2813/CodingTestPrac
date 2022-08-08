@@ -15,8 +15,8 @@ public:
             else if(now<0){
                 int tmax =max(min_val*now,now);
                 int tmin =min(max_val*now, now);
-                max_val=tmax;
                 min_val=tmin; 
+                max_val=tmax;
             }
             g_max=max(g_max, max_val);
         }
