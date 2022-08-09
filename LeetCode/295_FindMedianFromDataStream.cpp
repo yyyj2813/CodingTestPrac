@@ -32,8 +32,7 @@ public:
         //cout<<"findMedian"<<lpq.size()<<' '<<gpq.size()<<endl;   
         
         if(lpq.size()==gpq.size()) return ((double)lpq.top() + gpq.top())/2.0;
-        else if(gpq.size()>lpq.size()) return gpq.top(); 
-        else return lpq.top(); 
+        else return gpq.top(); 
     }
 };
 
