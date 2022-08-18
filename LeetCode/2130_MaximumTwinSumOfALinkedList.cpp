@@ -19,7 +19,7 @@ public:
             iter=iter->next; 
         }        
         
-        int max_val=0; 
+        int max_val=0; n
         int i=0; 
         
         while(i < vec.size()/2){
